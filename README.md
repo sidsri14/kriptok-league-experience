@@ -1,32 +1,46 @@
-# React + TypeScript + Vite
+# ⚔️ KriptoK League: Perp Trading Chronicle & PnL Engine
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **Interactive Perp Trade Journal, Invalidation Matrix & Shareable PnL Card Generator for KriptoK League.**  
+> Built for the official **KriptoK Trading League Experience ($2,000 USDC Bounty)** on [Superteam Earn](https://superteam.fun/earn).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ⚡ Overview
 
-## React Compiler
+The **KriptoK Trading League** brings high-stakes perpetual futures tournaments to decentralized traders.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This platform documents a comprehensive **Perp Trading Tournament Chronicle & Analytics Suite**, featuring:
+1. **Trade Execution & Thesis Journal**: Detailed analysis of tournament trades (SOL-PERP, BTC-PERP) with entry/exit logic, leverage sizing, and technical invalidation rules.
+2. **Interactive PnL Share Card Generator**: Dynamic customizable PnL cards with real-time ROI styling ready for Twitter/X sharing.
+3. **Stage-by-Stage League Chronicle**: 4-phase tournament updates covering early rounds, midterm pivots, risk management, and final leaderboard rank.
+4. **Product Feedback & UX Recommendations**: Structured suggestions for order execution, mobile charting, and liquidation warnings.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 🛠️ Architecture & Features
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+- **Framework**: React 19 + TypeScript + Vite
+- **Styling**: Tailwind CSS with dark cyber-perp aesthetic
+- **PnL Card Engine**: Canvas-ready shareable trading cards with ROI badges
+- **Strict Verification**: 100% type-safe with TypeScript
+
+---
+
+## 🚀 Running Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/sidsri14/kriptok-league-experience.git
+cd kriptok-league-experience
+
+# Install dependencies
+npm install
+
+# Start local server (Port 5192)
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+## 📜 License
+MIT © 2026 Siddharth Srivastava (@sidsri14)
